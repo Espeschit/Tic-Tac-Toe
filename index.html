@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+    <script src="assets/scripts/index.js" defer type="module"></script>
+</head>
+<body>
+    <div>
+        <h2 id = 'subtitle'>X turn</h2>
+        <div class="flex-container flex-column">
+            <div class="flex-container flex-wrap" id="board">
+            </div>
+        </div>
+        <footer class='footer'>
+            <div class='players'>
+                <div>PLAYER 1 (<b>X</b>)</div>
+                <hr>
+                <div>PLAYER 2 (<b>O</b>)</div>
+            </div>
+            <div class='scores'>
+                <div id='p1Score'>0</div>
+                <div id='p2Score'>0</div>
+            </div>
+        </footer>
+        <button id="reset-button">RESET</button>
+    </div>
+</body>
+</html>
